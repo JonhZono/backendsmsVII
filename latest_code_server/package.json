@@ -1,0 +1,38 @@
+{
+  "name": "sms_v2",
+  "version": "1.0.0",
+  "description": "sms",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "sms"
+  ],
+  "author": "Lay",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/abort-controller": "^3.186.0",
+    "@aws-sdk/client-s3": "^3.186.0",
+    "aws-sdk": "^2.1231.0",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.2",
+    "helmet": "^4.4.1",
+    "joi": "^17.4.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.10.0",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.12",
+    "redis": "^3.1.1",
+    "socket.io": "^4.5.1"
+  }
+}
